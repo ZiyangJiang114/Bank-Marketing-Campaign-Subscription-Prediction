@@ -14,3 +14,42 @@ The results show that while most models achieve high accuracy, their ability to 
 The dataset contains information from **17 marketing campaigns** conducted between **2008 and 2010**, with over **79,000 client contacts**. The target variable represents whether a client subscribed to a term deposit.
 
 ---
+## Methodology (CRISP-DM)
+
+### Business Understanding
+
+The objective of this taks is to improve the successful rate of direct marketing campaign by identifying clients who are more likely to subscribe to a term deposit and reduce unnecessary contact attempts.
+
+---
+### Data Understanding
+
+The dataset contains both categorical and numerical features as input variable, grouped into 4 main categories:
+
+- client demographics  
+- contact information  
+- campaign history  
+- economic indicators  
+
+There is only one output, which represents wether the client subscribed a term deposit.
+
+---
+### Data Preparation & Feature Engineering
+
+After a careful data screening and analysis, the features of:
+
+- 'duration' was removed because it is unusable for real-world prediction.
+- 'housing','loan', and 'default' were removed due to their minimal variation in subscription rates, indicating low predicative value.
+- 'pdays' conatins a special value(999) indicating that the client was contacted the first time. To properly represent this information, a new binary numerical featrue 'is_firstTime_Call' was created. The origional values of 999 were replaced with 0.
+- 'y', target varaible, was converted from categorical values to a binary numerical format.
+
+---
+
+
+
+
+
+
+
+
+
+
