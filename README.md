@@ -67,12 +67,12 @@ The results showing:
 
 To improve model performance, hyperparameter tuning was applied to all classifiers with **F1-score as the primary evaluation metric**, aiming to better balance precision and recall.
 
-- **Logistic Regression:** Tuned regularization parameter `C` (best ≈ 23.05), resulting in slight improvement in recall with stable generalization.
-- **KNN:** Used GridSearchCV to tune `n_neighbors` (best = 11), improving overall balance between precision and recall.
-- **Decision Tree:** Tuned `max_depth` (best = 10) to reduce overfitting and improve generalization, leading to the strongest overall performance.
-- **SVM:** Optimized step-by-step (kernel → `C` → `gamma`), achieving competitive performance but with significantly higher computational cost.
+- Logistic Regression: Tuned regularization parameter 'C' (best ≈ 23.05), resulting in slight improvement in recall with stable generalization.
+- KNN: Used GridSearchCV to tune 'n_neighbor' (best = 11), improving overall balance between precision and recall.
+- Decision Tree: Tuned 'max_depth' (best = 10) to reduce overfitting and improve generalization, leading to the strongest overall performance.
+- SVM: Optimized step-by-step (kernel → 'C' → 'gamma'), achieving competitive performance but with significantly higher computational cost.
 
-Overall, hyperparameter tuning improved model generalization and F1-score across all models, with the **Decision Tree providing the best balance between performance and efficiency**.
+Overall, hyperparameter tuning improved model generalization and F1-score across all models, with the Decision Tree providing the best balance between performance and efficiency.
 
 ---
 
