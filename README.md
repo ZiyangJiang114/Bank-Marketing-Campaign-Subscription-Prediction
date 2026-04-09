@@ -9,9 +9,9 @@ The results show that while most models achieve high accuracy, their ability to 
 ---
 ## Data Source
 - **Dataset:** UCI Machine Learning Repository – Bank Marketing Dataset  
-- **Reference Paper:** *Using Data Mining for Bank Direct Marketing: An Application of the CRISP-DM Methodology*  
+- **Reference Paper:Using Data Mining for Bank Direct Marketing: An Application of the CRISP-DM Methodology 
 
-The dataset contains information from **17 marketing campaigns** conducted between **2008 and 2010**, with over **79,000 client contacts**. The target variable represents whether a client subscribed to a term deposit.
+The dataset contains information from 17 marketing campaigns conducted between 2008 and 2010, with over 79,000 client contacts. The target variable represents whether a client subscribed to a term deposit.
 
 ---
 ## Methodology (CRISP-DM)
@@ -46,7 +46,7 @@ After a careful data screening and analysis, the features of:
 
 ### Modeling
 
-A baseline model (`DummyClassifier`) was introduced to establish a minimum benchmark.
+A baseline model (DummyClassifier) was introduced to establish a minimum benchmark.
 
 Four classification models were trained and compared with their default set-up:
 
