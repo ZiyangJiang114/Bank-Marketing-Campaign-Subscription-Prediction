@@ -44,7 +44,30 @@ After a careful data screening and analysis, the features of:
 
 ---
 
+### Modeling
 
+A baseline model (`DummyClassifier`) was introduced to establish a minimum benchmark.
+
+Four classification models were trained and compared with their default set-up:
+
+- Logistic Regression  
+- KNN  
+- Decision Tree  
+- SVM  
+
+The results showing:
+- Logistic Regression provides the highest precison, and relatively quick training time. However, it has a low recall score.
+- KNN is one of the fast model, it has a better balance between the precision and recall, and provides the highest F1 score, suggesting KNN with default settings provided the best overall balance.
+- Decision Tree required less computation cost than logistic regression model, but it provides notable gap between train and test accuracy indicating overfitting.
+- SVM was much slower than all other models. It provides a good traning and test accuracy showing good genralization performance.
+
+---
+
+### Modele Optimization
+
+
+
+---
 
 
 
